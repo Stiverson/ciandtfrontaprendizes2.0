@@ -1,0 +1,272 @@
+.caixa{
+	background: #7a7676;
+	padding: 30px;	
+}
+
+*{margin: 2px; padding: 0;}
+
+
+body{
+	background: radial-gradient(#363636,#4F4F4F,#696969);
+
+}
+
+h1{
+	margin: 10px;
+	text-align: center;
+	font-size: 24px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: turquoise;
+	line-height: 1.8;
+}
+
+ul.menu{
+	text-align: center; 
+	font-size: 20px;
+	
+}	
+
+ul.menu li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+ul.menu li a{
+	
+	border-radius: 6px;
+	padding: 6px 10px;
+	color: #fff;
+	
+}
+
+p{
+
+	text-align: center;
+	color: #fff;	
+	font-size: 22px;
+	font-family:  Arial, Helvetica, sans-serif;
+	/* margin: 25px 50px 75px; */
+	line-height: 1.6;
+}
+
+h2{
+	margin: 10px;
+	font-size: 18px;
+	text-align: center;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: turquoise;
+	line-height: 1.6;
+}
+
+.foto-perfil{
+    border-radius: 100%;
+    max-width: 200px;
+    border: 1px solid black
+}
+
+.fotos{
+    width: 22%;
+    display: inline-block;
+	padding: 20px 30px;
+	text-align: center;	
+}
+
+.container{
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 400px;
+    margin: 100px;
+}
+.container img{
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+h3{
+	text-align: center;
+	font-size: 15px;
+	font-family:  Arial, Helvetica, sans-serif;
+	margin: 25px 50px 75px;
+	color:#fff;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+}
+/* Ajuste no css para exibição do header*/
+.linkedinimg{
+    width:20px; 
+    height:20px;
+}
+
+.telefoneimg{
+    width:20px; 
+    height:20px;
+    border-radius: 100%;
+}
+
+.emailimg{
+    width:20px; 
+    height:20px;
+    border-radius: 100%;
+}
+
+.cursos{
+    color: rgb(4, 0, 63);
+}
+
+p{
+    font-size: 18px;
+    color:white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: turquoise;
+    background-color: transparent;
+}
+
+.foto-perfil{
+    border-radius: 100%;
+    max-width: 200px;
+    border: 1px solid black
+}
+
+.people{
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+
+h3{
+    font-style: italic;
+    color:black;
+    font-size: 26px;
+}
+
+.sobrepor{
+    font-style: italic;
+    color:black;
+    font-size: 20px;
+}
+
+.info{
+    font-size: 18px;
+    color:white;
+	line-height: 0;
+}
+
+.titulo{
+    font-style: italic;
+    color:turquoise;
+    text-align: center;
+    font-size: 46px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 15px;
+	font-family:  Arial, Helvetica, sans-serif;
+	margin: 25px 50px 75px;
+	color:#fff;
+}
+
+.body_info{
+    background: linear-gradient(#696969,#363636,#4F4F4F);
+    font-style: normal;
+    color:white;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .infoMikael{
+      margin-top: 25px;
+  }
+
+  .contatoMikael{
+      margin-top: 55px;
+  }
+
+  .escolaridademikael{
+      margin-top: 35px;
+  }
+
+  .cursosmikael{
+      margin-top: 35px;
+      text-align: justify;
+  }
+
+  .infoGabi{
+      margin-top: 15px;;
+  }
+
+  .escolaridadeGabi{
+      margin-top: 22px;
+  }
+
+  .cursosGabi{
+    margin-top: 35px;
+    text-align: justify;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
