@@ -270,3 +270,7 @@ h3{
     font-size: 1.3rem;
 }
 
+.item {
+    flex-grow: 4; /* default 0 */
+  }
+
