@@ -32,9 +32,7 @@ fetch('http://localhost:8080/v1/info')
                 <p>${value.dadoPessoal.escolaridade}</p>
 
                 <br/>
-                <h1 class ="title">Cursos</h1>
-                <div id="cursos">
-                </div>
+                
      
                 </div>`
     })
